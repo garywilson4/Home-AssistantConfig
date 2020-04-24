@@ -1,0 +1,15 @@
+id: '1561389239170'
+alias: pcleds off
+trigger:
+- entity_id: input_boolean.pc_leds
+  from: 'on'
+  platform: state
+  to: 'off'
+condition: []
+action:
+- entity_id: light.pc_leds
+  service: light.turn_off
+- delay: 00:00:05
+- data: {}
+  entity_id: switch.pc_lights
+  service: switch.turn_off

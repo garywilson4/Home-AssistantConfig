@@ -1,0 +1,45 @@
+ios:
+  push:
+    categories:
+      - name: Medicine
+        identifier: 'medicine'
+        actions:
+          - identifier: 'TABLET_TAKEN'
+            title: 'Tablet Taken'
+            activationMode: 'background'
+            authenticationRequired: yes
+            destructive: yes
+            behavior: 'default'
+          - identifier: 'REMIND_LATER'
+            title: 'Remind me later'
+            activationMode: 'background'
+            authenticationRequired: yes
+            destructive: yes
+      - name: DrZzs Stream
+        identifier: 'stream1'
+        actions:
+          - identifier: 'WATCH_STREAM'
+            title: 'Watch Stream'
+            activationMode: 'background'
+            authenticationRequired: yes
+            destructive: yes
+            behavior: 'default'
+          - identifier: 'NOT_TODAY'
+            title: 'Not Today'
+            activationMode: 'background'
+            authenticationRequired: yes
+            destructive: yes
+      - name: Frencks Stream
+        identifier: 'stream2'
+        actions:
+          - identifier: 'WATCH_STREAM'
+            title: 'Watch Stream'
+            activationMode: 'background'
+            authenticationRequired: yes
+            destructive: yes
+            behavior: 'default'
+          - identifier: 'NOT_TODAY'
+            title: 'Not Today'
+            activationMode: 'background'
+            authenticationRequired: yes
+            destructive: yes

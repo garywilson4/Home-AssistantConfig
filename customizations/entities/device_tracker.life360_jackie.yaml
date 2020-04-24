@@ -1,0 +1,3 @@
+device_tracker.life360_jackie:
+  entity_picture: /local/Jackie.png
+  friendly_name: Jackie

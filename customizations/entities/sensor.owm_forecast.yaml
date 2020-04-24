@@ -1,0 +1,3 @@
+sensor.owm_forecast:
+  icon: mdi:cloud-search
+  friendly_name: Forecast

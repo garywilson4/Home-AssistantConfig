@@ -1,0 +1,20 @@
+platform: template
+sensors:
+  qbittorrent_state:
+    value_template: >-
+      {% if is_state('sensor.qbittorrent_status', 'seeding') %}
+        seeding
+      {% elif is_state('sensor.qbittorrent_status', 'up_down') %}
+        downloading
+      {% else %}
+        idle
+      {% endif %}
+
+    icon_template: >-
+      {% if is_state('sensor.qbittorrent_status', 'seeding') %}
+        mdi:arrow-up-bold-outline
+      {% elif is_state('sensor.qbittorrent_status', 'up_down') %}
+        mdi:arrow-down-bold-outline
+      {% else %}
+        mdi:pause-octagon-outline
+      {% endif %}

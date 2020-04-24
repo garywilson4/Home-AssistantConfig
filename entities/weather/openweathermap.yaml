@@ -1,0 +1,5 @@
+platform: openweathermap
+api_key: !secret openweathermap_key
+mode: freedaily
+latitude: !secret latitude
+longitude: !secret longitude

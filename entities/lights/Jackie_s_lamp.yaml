@@ -1,0 +1,11 @@
+platform: mqtt
+name: "Jackie's Lamp"
+command_topic: "cmnd/sonoff6/power"
+state_topic: "stat/sonoff6/POWER"
+payload_on: "ON"
+payload_off: "OFF"
+retain: false
+availability_topic: "tele/sonoff6/LWT"
+payload_available: "Online"
+payload_not_available: "Offline"
+unique_id: jackieslamp

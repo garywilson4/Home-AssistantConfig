@@ -1,0 +1,3 @@
+sensor.owm_pressure:
+  icon: mdi:gauge-low
+  friendly_name: Pressure

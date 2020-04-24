@@ -1,0 +1,38 @@
+platform: darksky
+api_key: !secret darkcloud_password
+forecast:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+monitored_conditions:
+  - summary
+  - minutely_summary
+  - hourly_summary
+  - daily_summary
+  - icon
+  - temperature
+  - apparent_temperature
+  - apparent_temperature_high
+  - apparent_temperature_low
+  - temperature_high
+  - temperature_low
+  - moon_phase
+  - precip_intensity
+  - precip_probability
+  - precip_type
+  - precip_accumulation
+  - precip_intensity_max
+  - humidity
+  - dew_point
+  - pressure
+  - uv_index
+  - wind_speed
+  - wind_gust
+  - wind_bearing
+  - cloud_cover
+  - visibility
+  - ozone
+scan_interval: '00:15:00'

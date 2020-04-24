@@ -1,0 +1,3 @@
+sensor.owm_condition:
+  icon: mdi:cloud-outline
+  friendly_name: Conditions

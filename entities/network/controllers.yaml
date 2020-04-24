@@ -1,0 +1,7 @@
+host: 192.168.0.6
+site: default
+dont_track_devices: true
+ssid_filter:
+  - gazza5.0
+  - gazzaNoT
+  - gazzaIoT

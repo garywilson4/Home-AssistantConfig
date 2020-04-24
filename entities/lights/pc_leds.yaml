@@ -1,0 +1,38 @@
+platform: mqtt
+name: "PC LEDS"
+command_topic: "cmnd/sonoffsv/POWER2"
+state_topic: "stat/sonoffsv/RESULT"
+state_value_template: "{{value_json.POWER2}}"
+availability_topic: "tele/sonoffsv/LWT"
+brightness_command_topic: "cmnd/sonoffsv/Dimmer"
+brightness_state_topic: "stat/sonoffsv/RESULT"
+brightness_scale: 100
+on_command_type: "brightness"
+brightness_value_template: "{{value_json.Dimmer}}"
+rgb_command_topic: "cmnd/sonoffsv/Color2"
+rgb_state_topic: "tele/sonoffsv/STATE"
+rgb_value_template: "{{value_json.Color.split(',')[0:3]|join(',')}}"
+effect_command_topic: "cmnd/sonoffsv/Scheme"
+effect_state_topic: "stat/sonoffsv/RESULT"
+effect_value_template: "{{value_json.Scheme}}"
+effect_list:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+payload_on: "ON"
+payload_off: "OFF"
+payload_available: "Online"
+payload_not_available: "Offline"
+qos: 1
+retain: false
+unique_id: pcleds

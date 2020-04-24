@@ -1,0 +1,11 @@
+platform: mqtt
+name: "Gary's Lamp"
+command_topic: "cmnd/sonoff5/power"
+state_topic: "stat/sonoff5/POWER"
+payload_on: "ON"
+payload_off: "OFF"
+retain: false
+availability_topic: "tele/sonoff5/LWT"
+payload_available: "Online"
+payload_not_available: "Offline"
+unique_id: garyslamp

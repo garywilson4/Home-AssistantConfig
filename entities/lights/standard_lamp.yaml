@@ -1,0 +1,11 @@
+platform: mqtt
+name: "Standard Lamp"
+command_topic: "cmnd/sonoff2/power"
+state_topic: "stat/sonoff2/POWER"
+payload_on: "ON"
+payload_off: "OFF"
+retain: false
+availability_topic: "tele/sonoff2/LWT"
+payload_available: "Online"
+payload_not_available: "Offline"
+unique_id: standardlamp

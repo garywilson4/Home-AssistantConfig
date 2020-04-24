@@ -1,0 +1,12 @@
+platform: virgintivo
+default_is_show: false
+show_packages: Free-to-air,Player  #Mix,Fun,Full House,Premium,Pay-per-view
+force_hd: false
+keep_connected: false
+tivos:
+  1:
+    name: Virgin
+    host: 192.168.20.35
+    force_hd: false
+tvchannellists:
+  enable: True

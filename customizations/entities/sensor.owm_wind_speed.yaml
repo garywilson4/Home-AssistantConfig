@@ -1,0 +1,3 @@
+sensor.owm_wind_speed:
+  icon: mdi:weather-windy
+  friendly_name: Wind Speed

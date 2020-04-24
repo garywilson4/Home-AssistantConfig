@@ -1,0 +1,4 @@
+platform: qbittorrent
+url: 'http://192.168.0.10:4500'
+username: !secret qbit_user
+password: !secret qbit_pass

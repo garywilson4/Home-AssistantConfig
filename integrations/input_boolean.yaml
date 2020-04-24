@@ -1,0 +1,31 @@
+input_boolean: ~
+  # node_red:
+  #   name: Node Red Watchdog
+  #   initial: on
+
+  # override:
+  #   name: override shed lights
+  #   initial: off
+  #   icon: mdi:timer-off
+
+  # weather:
+
+  # pc_leds:
+  #   name: pc led's
+  #   initial: false
+  #   icon: mdi:lightbulb
+
+  # unifi_update_available:
+  #   name: Update Available
+  #   initial: false
+  #   icon: mdi:update
+
+  # harrys_phone:
+  #   name: Harrys Phone
+  #   initial: false
+  #   icon: mdi:cellphone-off
+
+  # jaxsons_tv:
+  #   name: Jaxsons Telly
+  #   initial: false
+  #   icon: mdi:television-classic-off

@@ -1,0 +1,10 @@
+platform: life360
+username: !secret life360_user
+password: !secret life360_password
+prefix: life360 
+interval_seconds: 10
+filename: life360.conf
+show_as_state: places, driving, moving
+max_gps_accuracy: 150
+max_update_wait:
+  minutes: 30

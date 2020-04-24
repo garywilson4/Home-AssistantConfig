@@ -1,0 +1,15 @@
+input_number: ~
+  # slider1:
+  #   name: Master Bed Fan
+  #   initial: 0
+  #   min: 0
+  #   max: 3
+  #   step: 1
+  #   icon: mdi:fan
+  # mac:
+  #   name: ap_mac
+  #   initial: 0
+  #   min: 0
+  #   max: 2
+  #   step: 1
+  #   icon: mdi:router

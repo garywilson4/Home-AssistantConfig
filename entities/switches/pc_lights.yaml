@@ -1,0 +1,10 @@
+platform: mqtt
+name: "PC Lights"
+command_topic: "cmnd/sonoffsv/power1"
+state_topic: "stat/sonoffsv/RESULT"
+payload_on: "ON"
+payload_off: "OFF"
+retain: false
+availability_topic: "tele/sonoffsv/LWT"
+payload_available: "Online"
+payload_not_available: "Offline"

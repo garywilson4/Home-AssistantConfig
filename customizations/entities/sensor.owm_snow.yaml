@@ -1,0 +1,3 @@
+sensor.owm_snow:
+  icon: mdi:weather-snowy
+  friendly_name: Snow

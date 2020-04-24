@@ -1,0 +1,7 @@
+recorder:
+  exclude: 
+    domains: !include ../domains.yaml
+    entities: !include ../exclude.yaml
+  purge_keep_days: 2
+  purge_interval: 2
+  db_url: !secret recorder_db_url

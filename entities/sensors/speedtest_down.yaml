@@ -1,0 +1,5 @@
+platform: template
+sensors:      
+  speedtest_down:
+    friendly_name: Internet Speedtest Down
+    value_template: "{{ state_attr('sensor.unifi_gateway_www', 'xput_down')}}"

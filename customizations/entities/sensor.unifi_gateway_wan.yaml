@@ -1,0 +1,2 @@
+sensor.unifi_gateway_wan:
+  friendly_name: WAN

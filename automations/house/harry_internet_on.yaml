@@ -1,0 +1,17 @@
+id: '1574621306676'
+alias: Harry turn internet access on
+description: restore internet
+trigger:
+- at: 07:00
+  platform: time
+condition:
+- condition: state
+  entity_id: device_tracker.harrys_iphone_2
+  state: home
+action:
+- data:
+    entity_id: input_boolean.harrys_phone
+  service: input_boolean.turn_off
+- data:
+    entity_id: input_boolean.jaxsons_tv
+  service: input_boolean.turn_off

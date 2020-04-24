@@ -1,0 +1,44 @@
+align: center
+animation: auto
+attribute: false
+background_style: true
+card_style: true
+charge_entity: false
+color: 'var(--custom-bar-card-color, var(--primary-color))'
+decimal: false
+delay: 5000
+direction: right
+entities:
+  - entity: sensor.battery_level
+  - entity: sensor.battery_level_2
+height: 40px
+icon: false
+icon_position: 'off'
+icon_style: false
+indicator: auto
+limit_value: false
+max: 100
+min: 0
+minmax_style: false
+padding: 4px
+rounding: 30px
+saturation: 50%
+severity:
+  - color: '#bf4040'
+    value: 33
+  - color: '#bf9540'
+    value: 66
+  - color: '#40bf40'
+    value: 100
+show_minmax: false
+show_value: true
+speed: 1000
+tap_action: info
+target: false
+title: false
+title_position: left
+title_style: false
+unit_of_measurement: false
+value_style: false
+visibility: false
+width: 50%

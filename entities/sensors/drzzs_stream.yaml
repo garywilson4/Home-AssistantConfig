@@ -1,0 +1,11 @@
+platform: template
+sensors:
+  drzzs_stream:
+    friendly_name: "DrZzs"
+    entity_picture_template: /local/drzzs.png
+    value_template: >-
+      {% if is_state('sensor.drzzs', 'streaming') %}
+        Is {{states('sensor.drzzs')}}
+      {% else %}
+        Stream In {{states('sensor.nodered_83a7a13a_108b2')}}
+      {% endif %}

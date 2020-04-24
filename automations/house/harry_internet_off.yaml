@@ -1,0 +1,17 @@
+id: '1574621029226'
+alias: Harry turn internet access off
+description: turn off internet for harry at reasonable time
+trigger:
+- at: '23:00'
+  platform: time
+condition:
+- condition: state
+  entity_id: device_tracker.harrys_iphone_2
+  state: home
+action:
+- data:
+    entity_id: input_boolean.harrys_phone
+  service: input_boolean.turn_on
+- data:
+    entity_id: input_boolean.jaxsons_tv
+  service: input_boolean.turn_on

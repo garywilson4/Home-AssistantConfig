@@ -1,0 +1,2 @@
+sensor.unifi_gateway_lan:
+  friendly_name: LAN

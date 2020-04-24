@@ -1,0 +1,3 @@
+device_tracker.life360_stacy:
+  entity_picture: /local/stacy.png
+  friendly_name: Stacy

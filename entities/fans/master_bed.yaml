@@ -1,0 +1,10 @@
+platform: mqtt
+name: "Master Bed Fan"
+command_topic: "cmnd/sonoff8/POWER1"
+state_topic: "stat/sonoff8/POWER1"
+payload_on: "ON"
+payload_off: "OFF"
+retain: false
+availability_topic: "tele/sonoff8/LWT"
+payload_available: "Online"
+payload_not_available: "Offline"

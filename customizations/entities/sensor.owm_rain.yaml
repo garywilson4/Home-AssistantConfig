@@ -1,0 +1,3 @@
+sensor.owm_rain:
+  icon: mdi:weather-rainy
+  friendly_name: Rain

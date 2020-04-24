@@ -1,0 +1,18 @@
+
+  - automation
+  - weblink
+  - updater
+  - group
+  - input_boolean
+  - input_number
+  - input_select
+  - media_player
+  - weather
+  - zone
+  - fan
+  - light
+  - switch
+  - device_tracker
+  - script
+  - alexa
+  - alert

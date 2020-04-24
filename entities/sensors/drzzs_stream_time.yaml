@@ -1,0 +1,5 @@
+platform: attributes
+friendly_name: "DrZZs Stream Time"
+attribute: start_time
+entities:
+  - calendar.drzzs_streams_and_stuff
