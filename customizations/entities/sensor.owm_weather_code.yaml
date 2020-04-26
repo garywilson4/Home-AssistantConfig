@@ -1,2 +1,2 @@
-owm_weather_code:
+sensor.owm_weather_code:
   icon: mdi:weather-hurricane
