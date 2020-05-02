@@ -20,7 +20,7 @@ Purple-N-Smoke:
   sidebar-selected-text-color: "var(--sidebar-selected-icon-color)"
   # Background colors
 #  lovelace-background: center / cover no-repeat url("/local/backgroundz/homekit-bg-4.jpeg") fixed
-  primary-background-color: 'rgba(17.6,16.9,33.3,0.1)'
+  primary-background-color: '#2D2B55'
   secondary-background-color: '#2D2B55'
   divider-color: 'rgba(0, 0, 0, .12)'
   table-row-background-color: '#7E46DF46'
