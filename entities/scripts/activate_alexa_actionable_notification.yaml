@@ -16,4 +16,4 @@ activate_alexa_actionable_notification:
       data_template:
         entity_id: "{{ alexa_device }}"
         media_content_type: skill
-        media_content_id: "amzn1.ask.skill.0fd34f7a-81f0-4521-a3d9-5263e729909c"
+        media_content_id: !secret alexa_content_id
