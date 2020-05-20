@@ -13,7 +13,7 @@ Dark-N-Smoke:
   text-primary-color: "#d6d6dc"
   secondary-background-color: "#737373"
   sidebar-text_-_background: "#66757f"
-  iron-icon-stroke-color: "#525260"
+  ha-icon-stroke-color: "#525260"
   ha-card-box-shadow: "3px 3px rgba(0,0,0,0.5)"
   ha-card-border-radius: "16px"
   paper-card-header-color: "var(--paper-item-icon-color)"

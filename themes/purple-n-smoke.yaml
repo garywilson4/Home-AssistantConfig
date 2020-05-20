@@ -66,7 +66,7 @@ Purple-N-Smoke:
   google-yellow-500: "#ffff66"  
 
 
-  iron-icon-stroke-color: "#525260"
+  ha-icon-stroke-color: "#525260"
   ha-card-box-shadow: "4px 4px rgba(0,0,0,0.4)"
   card-background-color: "var(--paper-card-background-color)"
   ha-card-border-radius: 30px

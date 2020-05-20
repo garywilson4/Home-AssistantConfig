@@ -124,8 +124,8 @@
     --rgb-google-blue-500: 0, 51, 204;
     --google-yellow-500: #ffff66;
     --rgb-google-yellow-500: 255, 255, 102;
-    --iron-icon-stroke-color: #525260;
-    --rgb-iron-icon-stroke-color: 82, 82, 96;
+    --ha-icon-stroke-color: #525260;
+    --rgb-ha-icon-stroke-color: 82, 82, 96;
     --ha-card-box-shadow: 3px 3px rgba(0,0,0,0.5);
     --dark-divider-opacity: 0.5;
     --light-divider-opacity: 0.1;
