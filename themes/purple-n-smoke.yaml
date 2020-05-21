@@ -1,13 +1,13 @@
 Purple-N-Smoke:
   # Main colors
   primary-color: '#A599E970'
-  accent-color: '#FAD000'
+  accent-color: '#7E46DF46'
   dark-primary-color: "#7E46DF46"
   light-primary-color: "#B362FF88"
   # Text colors
   primary-text-color: '#A599E9'
   text-primary-color: 'var(--primary-text-color)'
-  secondary-text-color: '#B362FF88'
+  secondary-text-color: 'var(--primary-text-color)'
   disabled-text-color: "#777777"
   label-badge-border-color: 'green'
   # Sidebar
