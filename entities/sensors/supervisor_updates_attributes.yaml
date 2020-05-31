@@ -1,0 +1,5 @@
+platform: attributes
+friendly_name: "addons updates"
+attribute: addons
+entities:
+  - sensor.supervisor_updates
