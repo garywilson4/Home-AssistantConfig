@@ -18,3 +18,33 @@
   - name: Vickys Birthday
     date: '1988-01-14'
     date_format: '%d-%m-%Y'
+  - name: Kyles Birthday
+    date: '1995-03-14'
+    date_format: '%d-%m-%Y'
+  - name: Joshs Birthday
+    date: '1999-05-31'
+    date_format: '%d-%m-%Y'
+  - name: Isaacs Birthday
+    date: '2000-12-18'
+    date_format: '%d-%m-%Y'
+  - name: Shakiras Birthday
+    date: '2002-06-22'
+    date_format: '%d-%m-%Y'
+  - name: Chelseas Birthday
+    date: '2002-10-26'
+    date_format: '%d-%m-%Y'
+  - name: Shanias Birthday
+    date: '2004-02-05'
+    date_format: '%d-%m-%Y'
+  - name: Levis Birthday
+    date: '2007-09-12'
+    date_format: '%d-%m-%Y'
+  - name: Amelias Birthday
+    date: '2012-01-31'
+    date_format: '%d-%m-%Y'
+  - name: Dillons Birthday
+    date: '2013-07-22'
+    date_format: '%d-%m-%Y'
+  - name: Jaxsons Birthday
+    date: '2017-06-23'
+    date_format: '%d-%m-%Y'

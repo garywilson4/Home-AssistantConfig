@@ -1,8 +1,8 @@
 Purple-N-Smoke:
   # Main colors
-  primary-color: '#4c0080'
+  primary-color: '#4c008088'
   accent-color: '#B362FF88'
-  dark-primary-color: "#2e004d"
+  dark-primary-color: "#2e004d88"
   light-primary-color: "#B362FF88"
   # Text colors
   primary-text-color: '#A599E9'
