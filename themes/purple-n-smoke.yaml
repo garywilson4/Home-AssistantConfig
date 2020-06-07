@@ -1,8 +1,8 @@
 Purple-N-Smoke:
   # Main colors
-  primary-color: '#7E46DF46'
+  primary-color: '#4c0080'
   accent-color: '#B362FF88'
-  dark-primary-color: "#7E46DF46"
+  dark-primary-color: "#2e004d"
   light-primary-color: "#B362FF88"
   # Text colors
   primary-text-color: '#A599E9'
@@ -11,7 +11,7 @@ Purple-N-Smoke:
   disabled-text-color: "#777777"
   label-badge-border-color: 'green'
   # Sidebar
-  sidebar-background-color: '#282849'
+  sidebar-background-color: '#1f0033'
   sidebar-text_-_background: "#66757f"
   sidebar-icon-color: "#A599E9"
   sidebar-text-color: "#A599E9"
@@ -20,8 +20,8 @@ Purple-N-Smoke:
   sidebar-selected-text-color: "var(--sidebar-selected-icon-color)"
   # Background colors
 #  lovelace-background: center / cover no-repeat url("/local/backgroundz/homekit-bg-4.jpeg") fixed
-  primary-background-color: '#2D2B55'
-  secondary-background-color: '#2D2B55'
+  primary-background-color: '#2e004d'
+  secondary-background-color: '#1f0033'
   divider-color: 'rgba(0, 0, 0, .12)'
   table-row-background-color: '#7E46DF46'
   table-row-alternative-background-color: '#A599E942'
