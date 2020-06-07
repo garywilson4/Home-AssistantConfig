@@ -1,1 +1,2 @@
-
+binary_sensor.updater:
+  friendly_name: Update Is
