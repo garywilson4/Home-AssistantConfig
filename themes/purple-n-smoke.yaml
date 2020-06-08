@@ -5,7 +5,7 @@ Purple-N-Smoke:
   dark-primary-color: "#2e004d88"
   light-primary-color: "#B362FF88"
   # Text colors
-  primary-text-color: '#A599E9'
+  primary-text-color: '#FFFFFF'
   text-primary-color: 'var(--primary-text-color)'
   secondary-text-color: 'var(--primary-text-color)'
   disabled-text-color: "#777777"
@@ -23,8 +23,8 @@ Purple-N-Smoke:
   primary-background-color: '#2e004d'
   secondary-background-color: '#1f0033'
   divider-color: 'rgba(0, 0, 0, .12)'
-  table-row-background-color: '#7E46DF46'
-  table-row-alternative-background-color: '#A599E942'
+  table-row-background-color: '#A599E970'
+  table-row-alternative-background-color: '#A599E985'
   # Nav Menu
   paper-listbox-color: '#777777'
   paper-listbox-background-color: '#1E1E3F'
