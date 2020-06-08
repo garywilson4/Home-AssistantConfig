@@ -1,0 +1,6 @@
+platform: attributes
+friendly_name: "Hassos Latest Version Available"
+attribute: latest_release_tag
+icon: mdi:home-assistant
+entities:
+  - sensor.operating_system

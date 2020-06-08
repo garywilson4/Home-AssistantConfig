@@ -1,0 +1,7 @@
+platform: github
+access_token: !secret github_access_token
+repositories:
+  - path: 'home-assistant/core'
+  - path: 'home-assistant/operating-system'
+  - path: 'home-assistant/frontend'
+  - path: 'home-assistant/supervisor'
