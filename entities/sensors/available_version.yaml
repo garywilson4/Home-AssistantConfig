@@ -1,0 +1,4 @@
+platform: version
+name: Hassio Version Available
+source: hassio
+image: intel-nuc
