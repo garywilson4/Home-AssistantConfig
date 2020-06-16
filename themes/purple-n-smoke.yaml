@@ -5,7 +5,7 @@ Purple-N-Smoke:
   dark-primary-color: "#2e004d88"
   light-primary-color: "#B362FF88"
   # Text colors
-  primary-text-color: '#FFFFFF'
+  primary-text-color: '#A599E9'
   text-primary-color: 'var(--primary-text-color)'
   secondary-text-color: 'var(--primary-text-color)'
   disabled-text-color: "#777777"
