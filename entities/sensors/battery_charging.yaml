@@ -1,0 +1,7 @@
+platform: attributes
+friendly_name: "battery charging"
+attribute: battery_charging
+icon: mdi:battery-charging
+entities:
+  - device_tracker.life360_gary_wilson
+  - device_tracker.life360_jackie

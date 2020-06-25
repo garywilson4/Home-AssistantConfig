@@ -1,0 +1,17 @@
+platform: template
+sensors:
+  garys_battery_charging_state:
+    friendly_name: 'Garys Phone State'
+    value_template: >-
+      {% if is_state('sensor.life360_gary_wilson_battery_charging', 'True') %}
+        Charging
+      {% else %}
+        Not Charging
+      {% endif %}
+
+    icon_template: >-
+      {% if is_state('sensor.life360_gary_wilson_battery_charging', 'True') %}
+        mdi:battery-charging
+      {% else %}
+        mdi:battery
+      {% endif %}
