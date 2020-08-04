@@ -1,6 +1,12 @@
 homeassistant:
   packages: !include_dir_named integrations
 
+panel_iframe:
+  phlex:
+    title: FlexTV
+    icon: mdi:microphone
+    url: http://hassio.local:1778
+
 
 
 
