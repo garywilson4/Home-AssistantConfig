@@ -12,6 +12,6 @@ action:
 - data:
     entity_id: input_boolean.harrys_phone
   service: input_boolean.turn_off
-- data:
-    entity_id: input_boolean.jaxsons_tv
-  service: input_boolean.turn_off
+# - data:
+#     entity_id: input_boolean.jaxsons_tv
+#   service: input_boolean.turn_off
