@@ -9,11 +9,11 @@ activate_alexa_actionable_notification:
       description: 'Alexa device you want to trigger'
   sequence:
     - service: input_text.set_value
-      data_template:
+      data:
         entity_id: input_text.alexa_actionable_notification
         value: '{"text": "{{ text }}", "event": "{{ event_id }}"}'
     - service: media_player.play_media
-      data_template:
+      data:
         entity_id: "{{ alexa_device }}"
         media_content_type: skill
         media_content_id: !secret alexa_content_id
