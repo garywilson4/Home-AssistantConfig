@@ -1,0 +1,6 @@
+name: my twitter
+platform: twitter
+consumer_key: !secret twitter_API_key
+consumer_secret: !secret twitter_API_secret_key
+access_token: !secret twitter_Bearer_token
+# access_token_secret: YOUR_ACCESS_SECRET
