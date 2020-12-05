@@ -32,7 +32,7 @@ Purple-N-Smoke:
   paper-grey-200: '#222222'
   # Paper card
   paper-card-header-color: '#7E46DF46'
-  paper-card-background-color: 'rgba(25,0,25,0.4)'
+  paper-card-background-color: 'rgba(25,0,25,1)'
   paper-dialog-background-color: '#1E1E3F'
   paper-item-icon-color: 'var(--primary-text-color)'
   paper-item-icon-active-color: '#FAD000' # "#e4da00"
