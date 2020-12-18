@@ -67,7 +67,7 @@ Purple-N-Smoke:
 
 
   ha-icon-stroke-color: "#525260"
-  ha-card-box-shadow: "4px 4px rgba(0,0,0,0.4)"
+  ha-card-box-shadow: "4px 4px rgba(0,0,0,0.3)"
   card-background-color: "var(--paper-card-background-color)"
   ha-card-border-radius: 30px
 

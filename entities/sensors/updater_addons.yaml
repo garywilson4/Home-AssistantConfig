@@ -1,0 +1,7 @@
+platform: template
+sensors:
+  updater_addons:
+    friendly_name: 'Updater - Addons'
+    entity_id:
+    - sensor.supervisor_updates
+    value_template: "{{ states('sensor.supervisor_updates') | int > 0 }}"

@@ -1,0 +1,7 @@
+platform: template
+sensors:
+  updater_hacs:
+    friendly_name: 'Updater - HACS'
+    entity_id:
+    - sensor.hacs
+    value_template: "{{ states('sensor.hacs') | int > 0 }}"

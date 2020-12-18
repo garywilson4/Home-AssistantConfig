@@ -1,0 +1,8 @@
+platform: template
+sensors:
+  updater_supervisor:
+    friendly_name: 'Updater - Supervisor'
+    entity_id:
+    - sensor.supervisor_updates
+    value_template: "{{ state_attr('sensor.supervisor_updates', 'update_available') }}"
+    availability_template: "{{ (states('sensor.supervisor_updates') | int(-1)) > -1 }}"
