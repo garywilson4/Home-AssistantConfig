@@ -1,0 +1,6 @@
+platform: command_line
+name: HassOS Version
+command: 'curl http://supervisor/host/info -H "Authorization: Bearer $(printenv SUPERVISOR_TOKEN)" '
+value_template: "{{ value_json.data.operating_system[18:] }}"
+json_attributes:
+- data

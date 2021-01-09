@@ -1,2 +1,4 @@
 binary_sensor.updater:
   friendly_name: Update Is
+sensor.hassos_version:
+  friendly_name: HassOS Current Version
