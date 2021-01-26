@@ -4,7 +4,6 @@ homekit:
       - light.stacy_s_lamp
       - light.gary_s_lamp
       - light.jackie_s_lamp
-      - switch.shed_lights
       - light.standard_lamp
       - light.table_lamp
       - light.landing_light
@@ -12,7 +11,5 @@ homekit:
       - fan.master_bed_fan
       - fan.master_bed_fan_2
       - fan.master_bed_fan_3
-      - light.landing_light
-      - light.master_bed
       - switch.pc_lights
   exclude_entities: !include ../exclude.yaml
