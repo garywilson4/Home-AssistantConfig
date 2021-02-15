@@ -1,8 +1,6 @@
 platform: template
 sensors:
   updater_addons:
-    friendly_name: 'Updater - Addons'
+    friendly_name: supervisor_updates
     device_class: problem
-    entity_id:
-    - sensor.supervisor_updates
     value_template: "{{ states('sensor.supervisor_updates') | int > 0 }}"

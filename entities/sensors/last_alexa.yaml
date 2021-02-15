@@ -1,23 +1,23 @@
 platform: template
 sensors:
   last_alexa:
-    entity_id:
-      - media_player.e2
-      - media_player.everywhere
-      - media_player.fire_tv
-      - media_player.kitchen
-      - media_player.living_room
-      - media_player.living_room_2            
-      - media_player.master_bed
-      - media_player.pc
-      - media_player.stereo_pair
-      - media_player.this_device
-      - media_player.this_device_2
-      - media_player.gary_s_fire_tv_cube
-      - media_player.gary_s_fire_tv_stick
-      - media_player.roku_yg00gh409307
-      - media_player.stacy_s_fire
-      - media_player.virgin
+    # entity_id:
+    #   - media_player.e2
+    #   - media_player.everywhere
+    #   - media_player.fire_tv
+    #   - media_player.kitchen
+    #   - media_player.living_room
+    #   - media_player.living_room_2            
+    #   - media_player.master_bed
+    #   - media_player.pc
+    #   - media_player.stereo_pair
+    #   - media_player.this_device
+    #   - media_player.this_device_2
+    #   - media_player.gary_s_fire_tv_cube
+    #   - media_player.gary_s_fire_tv_stick
+    #   - media_player.roku_yg00gh409307
+    #   - media_player.stacy_s_fire
+    #   - media_player.virgin
 
     value_template: >
       {{ states.media_player | selectattr('attributes.last_called','eq',True) | map(attribute='entity_id') | first }}
