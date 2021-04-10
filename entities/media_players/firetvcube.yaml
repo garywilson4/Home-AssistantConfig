@@ -1,7 +1,7 @@
 platform: androidtv
 name: FireTVCube
 device_class: androidtv
-host: 192.168.0.37
+host: 192.168.20.52
 adb_server_ip: 192.168.0.3
 exclude_unnamed_apps: true
 apps:
